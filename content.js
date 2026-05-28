@@ -73,7 +73,7 @@
         const sqmEach = (widthMm * heightMm) / 1000000;
         const sqmTotal = sqmEach * quantity;
 
-        const measurementText = `${heightMm}mm by ${widthMm}mm`;
+        const measurementText = `${widthMm}mm by ${heightMm}mm`;
         const sqmText = formatSqm(sqmTotal);
 
         const printedDescription = `${productName} (${measurementText}) [${sqmText}]`;
