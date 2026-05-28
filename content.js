@@ -159,7 +159,7 @@
 
       if (!copied) {
         console.log("FD JSON:", json);
-        alert("Copy blocked. JSON printed to console.");
+        alert("Unable to copy, check your permissions. JSON printed to console.");
         return;
       }
 
