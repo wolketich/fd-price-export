@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "FD Table Copier",
   "version": "1.0.0",
-  "description": "Copies FD financial table rows as JSON for import.",
+  "description": "Copies FD quote and financial table rows as JSON for import.",
   "permissions": ["clipboardWrite"],
   "content_scripts": [
     {
